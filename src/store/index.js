@@ -128,6 +128,12 @@ export const mainStore = defineStore("mainData", {
           order: 19,
           show: true,
         },
+        {
+          label: "央视新闻",
+          name: "ysxw-news",
+          order: 20,
+          show: true,
+        },
       ],
       newsArr: [],
       // 链接跳转方式
