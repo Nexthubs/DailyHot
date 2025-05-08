@@ -127,13 +127,7 @@ export const mainStore = defineStore("mainData", {
           name: "zhihu-daily",
           order: 19,
           show: true,
-        },        
-        {
-          label: "知乎",
-          name: "zhihu",
-          order: 20,
-          show: false,
-        },
+        },  
       ],
       newsArr: [],
       // 链接跳转方式
