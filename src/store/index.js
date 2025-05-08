@@ -9,26 +9,26 @@ export const mainStore = defineStore("mainData", {
       // 新闻类别
       defaultNewsArr: [
         {
+          label: "央视新闻",
+          name: "ysxw-news",
+          order: 0,
+          show: true,
+        },
+        {
           label: "哔哩哔哩",
           name: "bilibili",
-          order: 0,
+          order: 1,
           show: true,
         },
         {
           label: "微博",
           name: "weibo",
-          order: 1,
+          order: 2,
           show: true,
         },
         {
           label: "抖音",
           name: "douyin",
-          order: 2,
-          show: true,
-        },
-        {
-          label: "知乎",
-          name: "zhihu",
           order: 3,
           show: true,
         },
@@ -127,12 +127,12 @@ export const mainStore = defineStore("mainData", {
           name: "zhihu-daily",
           order: 19,
           show: true,
-        },
+        },        
         {
-          label: "央视新闻",
-          name: "ysxw-news",
+          label: "知乎",
+          name: "zhihu",
           order: 20,
-          show: true,
+          show: false,
         },
       ],
       newsArr: [],
