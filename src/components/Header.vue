@@ -56,6 +56,16 @@
             </template>
             {{ store.siteTheme === "light" ? "深色模式" : "浅色模式" }}
           </n-popover>
+          <n-popover>
+            <template #trigger>
+              <n-button secondary strong round @click="router.push('/setting')">
+                <template #icon>
+                  <n-icon :component="SettingTwo" />
+                </template>
+              </n-button>
+            </template>
+            全局设置
+          </n-popover>
         </n-space>
       </div>
       <div class="mobile">
