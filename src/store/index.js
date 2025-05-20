@@ -127,6 +127,12 @@ export const mainStore = defineStore("mainData", {
           name: "zhihu-daily",
           order: 19,
           show: true,
+        },
+        {
+          label: "Fresh News",
+          name: "freshnews",
+          order: 20,
+          show: true,
         },  
       ],
       newsArr: [],
