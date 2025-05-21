@@ -134,6 +134,12 @@ export const mainStore = defineStore("mainData", {
           order: 20,
           show: true,
         },  
+        {
+          label: "Yahoo 日本热搜",
+          name: "yahoojp",
+          order: 21,
+          show: true,
+        }, 
       ],
       newsArr: [],
       // 链接跳转方式
