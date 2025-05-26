@@ -139,7 +139,31 @@ export const mainStore = defineStore("mainData", {
           name: "yahoojp",
           order: 21,
           show: true,
-        }, 
+        },  
+        {
+          label: "VN Express",
+          name: "vnexpress",
+          order: 22,
+          show: true,
+        },  
+        {
+          label: "BBC Urdu",
+          name: "bbcurdu",
+          order: 23,
+          show: true,
+        },  
+        {
+          label: "Geo News",
+          name: "geonews",
+          order: 24,
+          show: true,
+        },  
+        {
+          label: "Prothomalo",
+          name: "prothomalo",
+          order: 25,
+          show: true,
+        },    
       ],
       newsArr: [],
       // 链接跳转方式
