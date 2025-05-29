@@ -163,6 +163,12 @@ export const mainStore = defineStore("mainData", {
           name: "prothomalo",
           order: 25,
           show: true,
+        },  
+        {
+          label: "The Daily Star",
+          name: "dailystar",
+          order: 26,
+          show: true,
         },    
       ],
       newsArr: [],
